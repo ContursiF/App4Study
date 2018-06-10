@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
     public void Activity2(View v) {
             goAhead(Main2Activity.class);
 
+    }
+
+    public void ExampleToast (View v){
+        Toast.makeText(this, "Toast di esempio", Toast.LENGTH_SHORT).show();
     }
 
     private void goAhead(Class NewActivity) {

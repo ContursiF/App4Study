@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
 
@@ -22,12 +23,13 @@ public class Login extends AppCompatActivity {
         if (account_username.equals("fabio") && account_password.equals("1")){
             goAhead();
         }else
-            finish();
+            Toast.makeText(this, "Credenziali Errate", Toast.LENGTH_SHORT).show();
+
     }
 
     public void cancel(View v)
     {
-        // to do
+        Toast.makeText(this, "Cancel", Toast.LENGTH_SHORT).show();
     }
     private void goAhead() {
         final Intent intent = new Intent(this, MainActivity.class);
