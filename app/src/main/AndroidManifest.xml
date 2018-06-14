@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".AdapterActivity"
             android:label="Seconda Activity"
             android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MessageActivity"></activity>

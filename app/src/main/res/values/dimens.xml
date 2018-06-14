@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_1">10</dimen>
+    <dimen name="body_width">15</dimen>
+    <dimen name="margin_top_2">10</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zone">
+        <item>Centro</item>
+        <item>Nord</item>
+        <item>Sud</item>
+        <item>Ovest</item>
+        <item>Est</item>
+    </string-array>
+</resources>

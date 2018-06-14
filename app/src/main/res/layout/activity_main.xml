@@ -21,12 +21,28 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Activity2"
-        android:text="Seconda Schermata"
+        android:onClick="ActivityListView"
+        android:text="Adapter List View"
         tools:layout_editor_absoluteX="212dp"
         tools:layout_editor_absoluteY="48dp"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ActivityGridView"
+        android:text="Adapter Grid View"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ActivitySpinnerView"
+        android:text="Adapter Spinner"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,4 +52,9 @@
         tools:layout_editor_absoluteY="48dp"
         tools:ignore="MissingConstraints" />
 <!--</android.support.constraint.ConstraintLayout>-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/zone"/>
 </LinearLayout>
