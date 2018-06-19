@@ -22,6 +22,9 @@
             android:label="Seconda Activity"
             android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".Activity_Fragment_hw"></activity>
+        <activity android:name=".AdapterGridActivity"></activity>
+        <activity android:name=".AdapterSpinnerActivity"></activity>
     </application>
 
 </manifest>

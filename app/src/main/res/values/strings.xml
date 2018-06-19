@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">App4Study</string>
+    <string name="hello_world">hello word fragment</string>
 </resources>

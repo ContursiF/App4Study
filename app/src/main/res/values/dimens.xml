@@ -3,4 +3,5 @@
     <dimen name="margin_top_1">10</dimen>
     <dimen name="body_width">15</dimen>
     <dimen name="margin_top_2">10</dimen>
+    <dimen name="activity_vertical_margin">40</dimen>
 </resources>
