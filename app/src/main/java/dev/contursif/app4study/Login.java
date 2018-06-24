@@ -23,7 +23,7 @@ public class Login extends AppCompatActivity {
         EditText password = (EditText) findViewById(R.id.password);
         String account_username = username.getText().toString();
         String account_password = password.getText().toString();
-        if (account_username.equals("fabio") && account_password.equals("1")) {
+        if ((account_username.equals("fabio") && account_password.equals("1")) ||(account_username.equals("") && account_password.equals("")) ) {
             goAhead();
         } else {
 //              Toast.makeText(this, "Credenziali Errate", Toast.LENGTH_SHORT).show();

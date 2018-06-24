@@ -1,10 +1,12 @@
 package dev.contursif.app4study;
 
+//import android.app.Activity;
 import android.os.Bundle;
+//import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 
 public class Activity_Fragment_hw extends AppCompatActivity {
-/*
+
         @Override
         protected void onCreate(Bundle savedInstanceState)
         {
@@ -12,11 +14,11 @@ public class Activity_Fragment_hw extends AppCompatActivity {
             setContentView(R.layout.activity_fragment_hw);
             if (savedInstanceState == null)
             {
-               // getSupportFragmentManager().beginTransaction()
-                      //  .add(R.id.container, new Fragment_hw()).commit();
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.container, new Fragment_hw()).commit();
 
             }
         }
     }
-*/
-}
+
+

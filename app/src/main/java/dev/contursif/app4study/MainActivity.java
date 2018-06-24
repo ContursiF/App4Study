@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         goAhead(AdapterSpinnerActivity.class);
     }
 
+    public void FragmentHw(View v) {
+        goAhead(Activity_Fragment_hw.class);
+    }
+
     public void ExampleToast (View v){
         Toast.makeText(this, "Toast di esempio", Toast.LENGTH_SHORT).show();
     }

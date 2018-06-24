@@ -21,7 +21,7 @@ public class AdapterSpinnerActivity extends AppCompatActivity {
     {
         // assegnazione del layout all'Activity
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adapter);
+        setContentView(R.layout.activity_adapter_spinner);
 /*
         // preparazione della ListView per l'elenco delle città
         ListView lv=(ListView) findViewById(R.id.cities);
