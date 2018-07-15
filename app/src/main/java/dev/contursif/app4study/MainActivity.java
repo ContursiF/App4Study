@@ -1,5 +1,6 @@
 package dev.contursif.app4study;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -58,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
     public void FragmentHw(View v) {
         goAhead(Activity_Fragment_hw.class);
     }
+
+
+    public void FragmentCity(View v) {
+        goAhead(FragmentCity.class);
+    }
+
 
     public void ExampleToast (View v){
         Toast.makeText(this, "Toast di esempio", Toast.LENGTH_SHORT).show();

@@ -20,11 +20,12 @@
         <activity
             android:name=".AdapterActivity"
             android:label="Seconda Activity"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".MessageActivity"></activity>
-        <activity android:name=".Activity_Fragment_hw"></activity>
-        <activity android:name=".AdapterGridActivity"></activity>
-        <activity android:name=".AdapterSpinnerActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".Activity_Fragment_hw" />
+        <activity android:name=".AdapterGridActivity" />
+        <activity android:name=".AdapterSpinnerActivity" />
+        <activity android:name=".FragmentCity"></activity>
     </application>
 
 </manifest>
