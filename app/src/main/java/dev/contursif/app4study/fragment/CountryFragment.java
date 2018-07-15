@@ -1,6 +1,7 @@
 package dev.contursif.app4study.fragment;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.app.ListFragment;
 import android.content.Context;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.ListView;
 
 import dev.contursif.app4study.CountryList;
 
-public class CountryFragment extends ListFragment
+public class CountryFragment extends Fragment
 {
     interface OnFragmentEventListener
     {
